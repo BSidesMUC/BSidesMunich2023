@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<!-- contact form start -->
+<section id="contact-form">
+  <div class="container">
+    <div id="contact-box" class="row">
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <h2>CONTACT DETAILS</h2>
+          <ul class="address-block">
+            <li>
+              <i class="fa fa-user"></i>{{ site.imprint.name }}
+            </li>
+{% if site.imprint.addressco %}
+            <li>
+              <i class="fa fa-map-marker"></i>{{ site.imprint.addressco }}, {{ site.imprint.address }}
+            </li>
+{% else %}
+            <li>
+              <i class="fa fa-map-marker"></i>{{ site.imprint.address }}
+            </li>
+{% endif %}
+            <li>
+              <i class="fa fa-envelope-o"></i>{{ site.imprint.email }}
+            </li>
+{% if site.imprint.phone %}
+            <li>
+              <i class="fa fa-phone"></i>{{ site.imprint.phone }}
+            </li>
+{% endif %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Wrapper Start -->
+<section id="intro">
+  <div class="container">
+    <div class="row block">
+	{{ content }}
+    </div><!-- .col-md-12 close -->
+    </div>
+  </div>
+</section>

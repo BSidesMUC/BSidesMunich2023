@@ -1,0 +1,100 @@
+{::nomarkdown}
+    </div>
+  </div>
+</section>
+{:/}
+
+<!-- Workhop and Conference -->
+{% if site.conference.dates.workshops and site.conference.dates.conference %}
+<section id="feature">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-md-offset-1">
+                <div class="feature-box feature-dates">
+                    <h2>Workshops</h2>
+
+                    {% if site.conference.dates.workshops %}
+                    <p>
+                        <b>{{ site.conference.dates.workshops }}</b> at <b>{{ site.conference.venue.workshopsday.details }}</b>
+                    </p>
+                    {% endif %}
+
+                    {% if site.conference.venue.workshopsday.address %}
+                    <p>
+                        {{ site.conference.venue.workshopsday.address }}
+                    </p>
+                    {% endif %}
+
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="feature-box feature-dates">
+                    <h2>Conference</h2>
+
+                    {% if site.conference.dates.conference %}
+                    <p>
+                        <b>{{ site.conference.dates.conference }}</b> at <b>{{ site.conference.venue.conferenceday.details }}</b>
+                    </p>
+                    {% endif %}
+
+                    {% if site.conference.venue.conferenceday.address %}
+                    <p>
+                        {{ site.conference.venue.conferenceday.address }}
+                    </p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% if site.conference.venue.conferenceday.gps or site.conference.venue.workshopsday.gps %}
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <div class="feature-box">
+                <div id="osm-map"></div>
+              </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</section>
+
+<!-- Conference -->
+{% elsif site.conference.dates.conference %}
+<section id="feature">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="feature-box">
+                    <h2>Virtual Conference</h2>
+                    <ul>
+                        {% if site.conference.dates.conference %}
+                        <li>Date: {{ site.conference.dates.conference }}</li>
+                        {% endif %}
+                        <li>Watch: <a href="https://www.youtube.com/channel/UC43VEnrIe-4mb-gx_83TM_A\">YouTube</a></li>
+                        <li>Participate: <a href="https://join.slack.com/t/virtualbsides-ykp7734/shared_invite/zt-h0k0xvdc-8AolJPDpNvf5UeWSBZ0Rog">Slack</a></li>
+                        {% if site.conference.venue.conferenceday.address %}
+                        <li>Location: {{ site.conference.venue.conferenceday.address }}</li>
+                        {% endif %}
+                    </ul>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        {% if site.conference.venue.conferenceday.gps or site.conference.venue.workshopsday.gps %}
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <div class="feature-box">
+                <div id="osm-map"></div>
+              </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</section>
+{% endif %}
+
+{::nomarkdown}
+<!-- Wrapper Start -->
+<section id="intro">
+  <div class="container">
+    <div class="row block">
+{:/}

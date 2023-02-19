@@ -1,0 +1,45 @@
+
+{% if include.class %}
+  {% if include.class == site.conference.sponsors.platinum %}
+    {% assign classname = "sponsor-platinum" %}
+    {% assign classtext = "Platinum Sponsor" %}
+  {% elsif include.class == site.conference.sponsors.gold %}
+    {% assign classname = "sponsor-gold" %}
+    {% assign classtext = "Gold Sponsor" %}
+  {% elsif include.class == site.conference.sponsors.silver %}
+    {% assign classname = "sponsor-silver" %}
+    {% assign classtext = "Silver Sponsor" %}
+  {% elsif include.class == site.conference.sponsors.bronze %}
+    {% assign classname = "sponsor-bronze" %}
+    {% assign classtext = "Bronze Sponsor" %}
+  {% elsif include.class == site.conference.sponsors.community %}
+    {% assign classname = "sponsor-community" %}
+    {% assign classtext = "Community Sponsor" %}
+  {% endif %}
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="block">
+      <div class="sponsor-title">
+        <h2 id="{{ classname }}">{{ classtext }}</h2>
+      </div>
+
+      <div class="sponsor-list {{ classname }}">
+      {% for sponsor in include.class %}
+        <div class="col-md-3 col-sm-6 col-xs-12 sponsor">
+          <div class="image-container vcenter">
+          {% if sponsor.uri %}
+            <a href="{{ sponsor.uri }}">
+            <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}">
+            </a>
+          {% else %}
+            <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}">
+          {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}

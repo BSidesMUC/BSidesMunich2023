@@ -1,0 +1,11 @@
+
+<!-- _includes/image.html -->
+<div class="row block" >
+  <figure>
+    <img src="{{ include.img | absolute_url }}" alt="{{ include.title }}"/>
+    {% if include.caption %}
+    <!-- <figcaption style="text-align:center">{{ include.caption }}</figcaption> //-->
+    <p align="center">{{ include.caption }}</p>
+    {% endif %}
+  </figure>
+</div>

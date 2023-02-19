@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+{% if site.conference.links.wstickets_uri or page.links.wstickets_uri %}
+<!-- Call to action Start -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="block">
+          <h2>Register for workshop</h2>
+          {% if site.conference.links.wstickets_uri %}
+          <a class="btn btn-default btn-call-to-action" href="{{ site.conference.links.wstickets_uri }}">Open Registration Form</a>
+          {% else if page.links.wstickets_uri %}
+          <a class="btn btn-default btn-call-to-action" href="{{ page.links.wstickets_uri }}">Open Registration Form</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- Call to action Start -->
+<section id="agenda">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="block">
+          <h2>Infos</h2>
+          <p>
+          Start: {{ page.timeslot.start }}<br>
+          End: {{ page.timeslot.end }}<br>
+        {% if site.conference.venue.workshopsday.address %}
+          Location: {{ site.conference.venue.workshopsday.address }}
+        {% endif %}
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="block">
+          <h2>Abstract</h2>
+          
+{{ content }}
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{% include speakerinfo.html %} 

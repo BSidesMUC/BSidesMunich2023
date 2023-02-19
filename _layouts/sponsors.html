@@ -1,0 +1,112 @@
+---
+layout: default
+---
+
+<!-- Wrapper Start -->
+
+{% if site.conference.sponsors.lookingfor %}
+<!-- Call to action Start -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="block">
+
+{{ content }}
+
+        </div>
+      </div>
+    </div>
+    
+    {% if site.conference.links.sponsorpackage_en_uri %}
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="block">
+          <a class="btn btn-default btn-call-to-action" href="{{ site.conference.links.sponsorpackage_en_uri }}" target="_blank">
+			Become a Sponsor</a>
+          <a class="btn btn-default btn-call-to-action" href="{{ site.conference.links.sponsorpackage_de_uri }}" target="_blank">
+			Sponsor werden</a>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
+  </div>
+</section>
+{% endif %}
+
+{% assign sponsorlevels = site.sponsors | where_exp: 'sponsor','sponsor.logo != nil' | group_by: 'level' | sort: 'level' %}
+
+{% assign sponsorlevels2 = site.sponsors | where_exp: 'sponsor','sponsor.logo != nil' | sort: 'level' %}
+
+{% assign sponsorlevels_sorted = sponsorlevels2 | group_by: 'level'  %}
+
+{% if sponsorlevels_sorted %}
+
+<!-- sponsors Start -->
+<section id="sponsors">
+  <div class="container sponsorlogos">
+
+{% for sponsorlevel in sponsorlevels_sorted %}
+
+  {% if sponsorlevel.name == "60" %}
+    {% assign classname = "sponsor-platinum" %}
+    {% assign classtext = "Platinum Sponsor" %}
+  {% elsif sponsorlevel.name == "70" %}
+    {% assign classname = "sponsor-gold" %}
+    {% assign classtext = "Gold Sponsor" %}
+  {% elsif sponsorlevel.name == "80" %}
+    {% assign classname = "sponsor-silver" %}
+    {% assign classtext = "Silver Sponsor" %}
+  {% elsif sponsorlevel.name == "90" %}
+    {% assign classname = "sponsor-bronze" %}
+    {% assign classtext = "Bronze Sponsor" %}
+  {% elsif sponsorlevel.name == "100" %}
+    {% assign classname = "sponsor-community" %}
+    {% assign classtext = "Community Sponsor" %}
+  {% endif %}
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="block">
+      <div class="sponsor-title">
+        <h2 id="{{ classname }}">{{ classtext }}</h2>
+      </div>
+
+      <div class="sponsor-list {{ classname }}">
+
+      {% for sponsor in sponsorlevel.items %}
+
+        {% if sponsorlevel.name == "60" %}
+        <div class="col-md-12 col-sm-12 col-xs-12 sponsor">
+        {% elsif sponsorlevel.name == "70" %}
+        <div class="col-md-4 col-sm-4 col-xs-6 sponsor">
+        {% elsif sponsorlevel.name == "80" %}
+        <div class="col-md-4 col-sm-4 col-xs-6 sponsor">
+        {% elsif sponsorlevel.name == "90" %}
+        <div class="col-md-3 col-sm-6 col-xs-12 sponsor">
+        {% elsif sponsorlevel.name == "100" %}
+        <div class="col-md-4 col-sm-4 col-xs-12 sponsor">
+        {% endif %}
+
+          <div class="image-container vcenter">
+          {% if sponsor.uri %}
+            <a href="{{ sponsor.uri }}">
+            <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}">
+            </a>
+          {% else %}
+            <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}">
+          {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
+
+</div>
+</section>
+
+{% endif %}

@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+
+    {% include head.html %}
+
+  </head>
+  <body>
+
+    {% include header.html %}
+
+  {% if site.conference.notice %}
+    {% if page.layout != 'agenda' and page.layout != 'talk' and page.layout != 'workshop' %}
+    <section id="notice">
+      <div class="container">
+    {% for notice in site.conference.notice %}
+      <div class="row">
+        <div class="col-md-12">
+          <div class="col-md-12 alert alert-warning" role="alert" style="text-align: left;">
+            {{ notice | markdownify }}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+    </section>
+    {% endif %}
+  {% endif %}
+
+    {{ content }}
+
+    {% include footer.html %}
+
+    </body>
+</html>

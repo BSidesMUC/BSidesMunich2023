@@ -1,0 +1,46 @@
+{::nomarkdown}
+    </div>
+  </div>
+</section>
+{:/}
+
+<!-- Assign Variable "today_date" to the current date -->
+{% assign today_date = "now" | date: "%s" %}
+
+<!-- Assign Variable "pre_date" to the string of the metafield -->
+{% assign deadline_cfp = site.conference.dates.deadline_cfp | date: "%s" %}
+{% assign date_diff = today_date | minus: deadline_cfp %}
+
+<!-- Call to action Start -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      {% if deadline_cfp > today_date %}
+        {% if site.conference.links.cfp_uri %}
+      <div class="col-md-6 col-md-offset-3">
+        <div class="block">
+          <h2>Call for Presentations</h2>
+          <p>{{ site.conference.links.cfp_uri }}</p>
+          <a class="btn btn-default btn-call-to-action" href="{{ site.conference.links.cfp_uri }}">Open Form</a>
+        </div>
+      </div>
+        {% endif %}
+        
+      {% else %}
+      <div class="col-md-12">
+        <div class="block">
+          <h2>Closed</h2>
+          <p>The CfP closed {{ site.conference.dates.deadline_cfp }}</p>
+        </div>
+      </div>
+    {% endif %}
+    </div>
+  </div>
+</section>
+
+{::nomarkdown}
+<!-- Wrapper Start -->
+<section id="intro">
+  <div class="container">
+    <div class="row block">
+{:/}

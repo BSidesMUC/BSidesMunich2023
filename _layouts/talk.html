@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+
+{% if page.recording_uri or page.slides_uri %}
+{% if page.recording_uri != "/dev/null" %}
+<!-- Call to action Start -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+    
+      {% if page.recording_uri %}
+        {% if page.slides_uri %}
+      <div class="col-md-6">
+        {% else %}
+      <div class="col-md-6 col-md-offset-3">
+        {% endif %}
+        <div class="block">
+          <h2>Recordings</h2>
+          <p>{{ page.recording_uri }}</p>
+          <a class="btn btn-default btn-call-to-action" href="{{ page.recording_uri }}">View Recording</a>
+        </div>
+      </div>
+      {% endif %}
+            
+      {% if page.slides_uri %}
+        {% if page.recording_uri %}
+      <div class="col-md-6">
+        {% else %}
+      <div class="col-md-6 col-md-offset-3">
+        {% endif %}
+        <div class="block">
+          <h2>Slides</h2>
+          <p>{{ page.slides_uri }}</p>
+          <a class="btn btn-default btn-call-to-action" href="{{ page.slides_uri }}">View Slides</a>
+        </div>
+      </div>
+      {% endif %}
+
+    </div>
+  </div>
+</section>
+{% endif %}
+{% endif %}
+
+<!-- Call to action Start -->
+<section id="agenda">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="block">
+          <h2>Abstract</h2>
+
+{{ page.content }}
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include speakerinfo.html %} 

@@ -1,0 +1,103 @@
+---
+layout: default
+---
+
+
+{% assign keynote_speakers = "" | split: ',' %}
+{% for talk in site.talks %}
+  {% if talk.keynote  %}
+    {% for organizer in talk.speakers %}
+      {% assign keynote_speakers = keynote_speakers | push: organizer %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+{% assign keynote_speakers_sorted = keynote_speakers | sort: 'name' %}
+
+
+{% assign speakers = "" | split: ',' %}
+{% for talk in site.talks %}
+  {% if talk.keynote == false %}
+    {% for talk_speaker in talk.speakers %}
+      {% assign speakers = speakers | push: talk_speaker %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+{% for talk in site.workshops %}
+  {% if talk.keynote == false %}
+    {% for talk_speaker in talk.speakers %}
+      {% assign speakers = speakers | push: talk_speaker %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+{% assign speakers_sorted = speakers | sort: 'name' %}
+
+<!-- Wrapper Start -->
+<section id="organizers">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-12">
+        
+      {% for talk_speaker in keynote_speakers_sorted  %}
+      <div class="row">
+        <div class="col-md-2 col-md-offset-1 col-xs-8 col-xs-offset-3">
+          <div class="block speaker-image">
+      {% if talk_speaker.photo  %}
+            <img src="{{ talk_speaker.photo | relative_url }}">          
+      {% else %}
+            <img src="/img/nemo.png">
+      {% endif %}
+          </div>
+        </div>
+      
+        <div class="col-md-9 col-xs-12">
+          <div class="block">
+            <p>
+              <h2>{{ talk_speaker.name }}</h2>
+      {% if talk_speaker.handle %}
+          <a href="https://www.twitter.com/{{ talk_speaker.handle  }}" class="fa fa-twitter">@{{ talk_speaker.handle }}</a>          
+      {% endif %}
+            </p>
+      {{ talk_speaker.bio | markdownify }}
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">&nbsp;</div>    
+
+      {% endfor %}  
+
+      {% for talk_speaker in speakers_sorted  %}
+      <div class="row">
+        <div class="col-md-2 col-md-offset-1 col-xs-8 col-xs-offset-3">
+          <div class="block speaker-image">
+      {% if talk_speaker.photo  %}
+            <img src="{{ talk_speaker.photo | relative_url }}">          
+      {% else %}
+            <img src="/img/nemo.png">
+      {% endif %}
+          </div>
+        </div>
+      
+        <div class="col-md-9 col-xs-12">
+          <div class="block">
+            <p>
+              <h2>{{ talk_speaker.name }}</h2>
+      {% if talk_speaker.handle %}
+          <a href="https://www.twitter.com/{{ talk_speaker.handle  }}" class="fa fa-twitter">@{{ talk_speaker.handle }}</a>          
+      {% endif %}
+            </p>
+      {{ talk_speaker.bio | markdownify }}
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">&nbsp;</div>    
+
+      {% endfor %}  
+
+    </div>
+   </div>
+ 
+</div>
+</section>

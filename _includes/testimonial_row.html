@@ -1,0 +1,104 @@
+{::nomarkdown}
+    </div>
+  </div>
+</section>
+{:/}
+
+{% if include.year %}
+
+<section id="testimonial">
+  <div class="container">
+    <div class="row">
+      <div class="section-title text-center">
+        <h2>{{ include.year.title }}</h2>
+      </div>
+    </div>
+
+    {% if include.year.slider %}
+    <div class="row">
+      <div class="col-md-6">
+        <div class="testimonial-carousel owl-carousel owl-theme {{ include.year.title | slugify }}">
+            {% for img in include.year.slider %}
+            <div class="item">
+              <img src="{{ img.src }}" alt="">
+            </div>
+            {% endfor %}
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="row counter-box">
+
+          <div class="col-md-6 col-xs-6" style="text-align: center;">
+            <a class="btn btn-default" href="{{ include.year.website_uri }}">Website</a>
+          </div>
+          <div class="col-md-6 col-xs-6" style="text-align: center;">
+            <a class="btn btn-default" href="{{ include.year.recordings_uri }}">Recordings</a>
+          </div>
+
+          <div class="col-md-6 col-xs-6">
+            <i class="ion-ios-chatboxes-outline"></i>
+            <h4 class="counter">{{ include.year.participants }}</h4>
+            <span>participants</span>
+          </div>
+          <div class="col-md-6 col-xs-6">
+            <i class="ion-ios-glasses-outline"></i>
+            <h4 class="counter">{{ include.year.speakers }}</h4>
+            <span>speakers</span>
+          </div>
+          <div class="col-md-6 col-xs-6">
+            <i class="ion-ios-compose-outline"></i>
+            <h4 class="counter">{{ include.year.workshops }}</h4>
+            <span>workshops</span>
+          </div>
+          <div class="col-md-6 col-xs-6">
+            <i class="ion-ios-timer-outline"></i>
+            <h4 class="counter">{{ include.year.team }}</h4>
+            <span>organizers</span>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    {% else if include.year.cancelled  %}
+    <div class="row">
+     <div class="col-md-12">
+       <div class="row counter-box">
+         <div class="col-md-6 col-md-offset-3 col-xs-6 col-xs-offset-3">
+           <h3>{{ include.year.cancelled }}</h3>
+         </div>
+       </div>
+       <div class="row counter-box">
+         <div class="col-md-6 col-md-offset-3 col-xs-6 col-xs-offset-3">
+           <a class="btn btn-default" href="{{ include.year.website_uri }}">Website</a>
+         </div>
+       </div>
+     </div>
+
+   </div>
+
+    {% else %}
+     <div class="row">
+      <div class="col-md-12">
+        <div class="row counter-box">
+          <div class="col-md-6 col-md-offset-3 col-xs-6 col-xs-offset-3">
+            <h3>Looking for your support.</h3>
+          </div>
+        </div>
+        <div class="row counter-box">
+          <div class="col-md-6 col-md-offset-3 col-xs-6 col-xs-offset-3">
+            <a class="btn btn-default" href="{{ include.year.website_uri }}">Website</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    {% endif %}
+
+  </div>
+</section>
+
+{% endif %}
+

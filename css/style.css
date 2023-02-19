@@ -1,0 +1,282 @@
+
+/*
+ * This css file includes styles added in the jekyll port of this theme.
+ * To find the original style.css that ships with Airspace, read airspace.css
+ *
+ */
+
+ .italic {
+   font-style: italic;
+ }
+
+ .bold {
+   font-weight: bold;
+ }
+
+ .center-text {
+   text-align: center;
+ }
+
+.post-area {
+  padding: 40px;
+  width: 100%;
+  min-height: 150px;
+  background-color: white;
+  border-bottom: 1px dotted #ddd;
+}
+
+.post-area a:link, .post-area a:visited {
+  font-size: 30px;
+  color: #333;
+}
+
+.post-area a:hover {
+  color: #0D0017;
+}
+
+.feature-box {
+  background: rgba(255, 255, 255, 0.5);
+  margin:  0 0 30px 0;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+}
+#testimonial .counter-box div i {
+    font-size: 35px;
+}
+#testimonial .counter-box div h4 {
+    font-size: 30px;
+    font-weight: bold;
+}
+#testimonial .counter-box div {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#owl-carousel .item{
+  margin: 3px;
+}
+#owl-carousel .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-bottom: 0px;
+}
+
+.agenda-title {
+    text-align: center;
+}
+
+#agenda .keynote-talk b:before {
+  content: "KEYNOTE - ";
+}
+
+#intro .sponsorlogos img {
+  width: auto;
+  padding: 0;
+}
+
+#intro ul {
+  color: #7B7B7B;
+  list-style: disc;
+  margin-block: 1em;
+  padding-inline-start: 40px;
+}
+
+.speaker-image img {
+  width: 150px;
+  margin-top: 15px;
+}
+.speaker-image {
+  width: auto;
+/*  padding: 0; */
+}
+
+
+
+/* Portrait */
+@media only screen 
+  and (orientation: portrait) { 
+
+  #global-header {
+    background-position-y: 110px;
+  }
+}
+/* thank god for https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
+
+@media only screen 
+  and (min-width: 768px)
+  and (max-width: 991px) {
+  #global-header {
+    background-position-y: 110px;
+  }
+
+}
+@media only screen 
+  and (max-width: 767px)
+  and (min-height: 423px) {
+  #global-header {
+    background-position-y: 150px;
+    background-size: 400px;
+    padding-top: 100px;
+  }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (max-width: 450px)
+  and (orientation: portrait) { 
+
+  #global-header {
+    background-position-y: 140px;
+    background-size: 300px;
+  }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-height: 423px)
+  and (orientation: landscape) { 
+
+  #global-header {
+    background-position-y: 110px;
+  }
+}
+
+@media only screen 
+  and (max-height: 422px)
+  and (orientation: landscape) { 
+
+  #global-header {
+    background-position-y: 130px;
+    background-size: 300px;
+    padding-top: 100px;
+  }
+}
+
+.col-lg-3, .col-md-3, .col-lg-4, .col-md-6 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+
+/**
+ * Schedule layout
+ */
+.schedule section.day,
+.schedule section.slot {
+  clear: both;
+}
+@media (min-width: 51.25em) {
+  .schedule h3.time {
+    width: 17.02128%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+  }
+  .schedule [data-room="room-1"] {
+    width: 25.53191%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 19.14894%;
+    clear: none;
+  }
+  .schedule [data-room="room-2"] {
+    width: 25.53191%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 46.80851%;
+    clear: none;
+  }
+  .schedule [data-room="room-3"] {
+    width: 25.53191%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+  .schedule .session .meta .room {
+    display: none;
+  }
+  .schedule .full {
+    width: 80.85106%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+
+/**
+ * 
+ */
+@media (min-width: 51.25em) {
+  .schedule-ws {
+    height: 600px;
+  }
+}
+.slot {
+  height: 100%;
+}
+.schedule .h-90 .slot {
+  border: 2px bisque solid;
+}
+.track {
+  float: left;
+  height: 100%;
+}
+.schedule [data-length="8"] {
+  height: 100%;
+  background-color: #FAFFD7;
+}
+.schedule [data-length="4"] {
+  height: 50%;
+  background-color: #FAEBD7;
+}
+.schedule [data-length="2"] {
+  height: 25%;
+  background-color: #FAFFD7;
+}
+.schedule [data-length="45"] {
+  height: 40%;
+}
+.schedule [data-length="25"] {
+  height: 20%;
+}
+.h-100 {
+  height: 100%;
+}
+.h-90 {
+  height: 88%;
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+.sponsor-list {
+  text-align: center;
+}
+#feature .feature-dates p {
+  color: black;
+  margin-bottom: 20px;
+  margin: unset;
+  font-size: larger;
+}
+#feature .feature-dates h2 {
+  margin-bottom: 10px;
+}
+
+
+#intro.team .block p {
+  padding-top: 5px;
+}
+#intro.team .block h3 {
+  margin-bottom: 5px;
+}

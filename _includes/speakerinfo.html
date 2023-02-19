@@ -1,0 +1,35 @@
+
+<!-- Call to action Start -->
+<section id="speaker">
+  <div class="container">
+  
+{% for speaker in page.speakers %}
+    <div class="row">
+      <div class="col-md-2 col-md-offset-2 col-xs-3 col-xs-offset-3">
+        <div class="block speaker-image">
+{% if speaker.photo  %}
+          <img src="{{ speaker.photo | relative_url }}">          
+{% else %}
+          <img src="/img/nemo.png">
+{% endif %}
+        </div>
+      </div>
+
+      <div class="col-md-6 col-xs-10">
+        <div class="block">
+          <p>
+            <h2>{{ speaker.name }}</h2>
+{% if speaker.handle %}
+            <a href="https://twitter.com/{{speaker.handle}}">@{{ speaker.handle }}</a>
+{% endif %}
+          </p>
+{{ speaker.bio | markdownify }}
+        </div>
+      </div>
+    </div>
+
+    <div class="row">&nbsp;</div>    
+{% endfor %}  
+
+  </div>
+</section>

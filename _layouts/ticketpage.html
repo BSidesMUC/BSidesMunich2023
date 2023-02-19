@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+
+{% if site.conference.links.contickets_uri or site.conference.links.wstickets_uri %}
+<!-- Call to action Start -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+  
+      {% if site.conference.links.contickets_uri %}
+        {% if site.conference.links.contickets_uri and site.conference.links.wstickets_uri %}
+          <div class="col-md-6">
+        {% else %}
+          <div class="col-md-12">
+        {% endif %}
+        <div class="block">
+          <h2>Conference Tickets</h2>
+          {% if site.conference.links.contickets_state %}
+            <p>{{ site.conference.links.contickets_state }}</p>
+          {% endif %}
+          <a class="btn btn-default btn-call-to-action" href="{{ site.conference.links.contickets_uri }}">Get your ticket via pretix.eu</a>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if site.conference.links.wstickets_uri %}
+        {% if site.conference.links.contickets_uri and site.conference.links.wstickets_uri %}
+          <div class="col-md-6">
+        {% else %}
+          <div class="col-md-12">
+        {% endif %}
+        <div class="block">
+          <h2>Workshop Tickets</h2>
+          {% if site.conference.links.wstickets_state %}
+            <p>{{ site.conference.links.wstickets_state }}</p>
+          {% endif %}
+          <a class="btn btn-default btn-call-to-action" href="{{ site.conference.links.wstickets_uri }}">Get your ticket via pretix.eu</a>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- Wrapper Start -->
+<section id="intro" class="{% if page.style %}{{ page.style }}{% endif %}" >
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+
+{{ content }}
+
+
+        </div>
+      </div><!-- .col-md-12 close -->
+    </div>
+  </div>
+</section>

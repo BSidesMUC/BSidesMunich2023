@@ -1,0 +1,45 @@
+{::nomarkdown}
+    </div>
+  </div>
+</section>
+{:/}
+
+{% if site.conference.links.contickets_uri or site.conference.links.wstickets_uri %}
+<!-- Call to action Start -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+  
+      {% if site.conference.links.contickets_uri %}
+        {% if site.conference.links.contickets_uri and site.conference.links.wstickets_uri %}
+          <div class="col-md-6">
+        {% else %}
+          <div class="col-md-12">
+        {% endif %}
+        <div class="block">
+          <h2>Conference Tickets</h2>
+          {% if site.conference.links.contickets_state %}
+            <p>{{ site.conference.links.contickets_state }}</p>
+          {% endif %}
+          <a class="btn btn-default btn-call-to-action" href="{{ site.conference.links.contickets_uri }}">Open Pretix</a>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if site.conference.links.wstickets_uri %}
+        {% if site.conference.links.contickets_uri and site.conference.links.wstickets_uri %}
+          <div class="col-md-6">
+        {% else %}
+          <div class="col-md-12">
+        {% endif %}
+        <div class="block">
+          <h2>Workshop Tickets</h2>
+          {% if site.conference.links.wstickets_state %}
+            <p>{{ site.conference.links.wstickets_state }}</p>
+          {% endif %}
+          <a class="btn btn-default btn-call-to-action" href="{{ site.conference.links.wstickets_uri }}">Open Pretix</a>
+        </div>
+      </div>
+      {% endif %}
+{% endif %}
+

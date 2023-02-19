@@ -1,0 +1,179 @@
+---
+layout: default
+---
+ 
+<!-- Wrapper Start -->
+<section id="agenda">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+ 
+{{ content }}
+
+        </div>
+      </div><!-- .col-md-12 close -->
+    </div>
+
+{% if site.workshops.size > 0 %}
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <div class="section-title agenda-title">
+            <h2>Workshops</h2>
+            <p class="lead">{{ site.conference.dates.workshops }}</p>
+            <p>{{ site.conference.venue.workshopsday.address }}</p>
+          </div>
+          {% if site.conference.venue.workshopsday.details %}
+          <div class="section-title agenda-title">
+            <p>{{ site.conference.venue.workshopsday.details }}</p>
+          </div>
+          {% endif %}
+        </div>
+      </div><!-- .col-md-12 close -->
+    </div>
+
+    <div class="row">
+       
+{% for track in (1..2) %}
+      <div class="p-6 col-lg-6 col-md-4">
+        <div class="card">
+          <div class="card-block text-center card-primary p-2">
+            {% if track == 1 %}
+              <h2>Maltego Open Office</h2>
+            {% elsif track == 2 %}
+              <h2>Maltego Schulungsraum </h2>
+            {% else %}
+              <h2>Track {{ track }}</h2>
+            {% endif %}
+          </div>
+        </div>
+          <ul class="list-group list-group-flush">
+
+{% assign talks = site.workshops | where: "track",track | where: "accepted",true | sort: 'timeslot.start' %}
+{% for talk in talks %}
+{% assign start = talk.timeslot.start | date: '%H:%M' %}
+{% assign end = talk.timeslot.end | date: '%H:%M' %}
+
+{% assign speakers = talk.speakers | map: 'name' %}
+{% assign speakers_string = speakers | join: " & " %}
+
+    <li class="list-group-item">
+    {% if talk.details %}
+      <a href="{{ talk.url | relative_url }}">
+        <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }}<br>
+        <b>{{ talk.title }}</b><br>
+        <i>{{ speakers_string }}</i>
+      </a>
+    {% else %}
+      <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }}<br>
+      <b>{{ talk.title }}</b><br>
+      <i>{{ speakers_string }}</i>
+    {% endif %}
+  </li>
+{% endfor %}  
+ 
+          </ul>
+        </div>
+{% endfor %}  
+      </div> 
+{% endif %}
+    
+    <div class="row">
+      <div class="col-md-12">
+         &nbsp;
+      </div><!-- .col-md-12 close -->
+    </div>
+    
+    
+{% if site.talks.size > 0 %}
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <div class="section-title agenda-title">
+            <h2>Talks</h2>
+            <p class="lead">{{ site.conference.dates.conference }}</p>
+            <p>{{ site.conference.venue.conferenceday.address }}</p>
+
+            {% if site.conference.venue.conferenceday.details %}
+            <div class="section-title agenda-title">
+              <p>{{ site.conference.venue.conferenceday.details }}</p>
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </div><!-- .col-md-12 close -->
+    </div>
+
+    <div class="row">
+{% for track in (1..2) %}      
+      <div class="p-6 col-lg-6 col-md-6">
+        <div class="card">
+          <div class="card-block text-center card-primary p-2">
+          {% if track == 1 %}
+            <h2>Hilton Ballroom</h2>
+          {% elsif track == 2 %}
+            <h2>Hilton Rumford </h2>
+          {% else %}
+            <h2>Track {{ track }}</h2>
+          {% endif %}
+          </div>
+        </div>
+            <ul class="list-group list-group-flush">
+
+{% assign sorted = site.talks | where: "track",track | where: "accepted",true | sort: 'timeslot.start' %}
+{% for talk in sorted %}
+
+{% assign start = talk.timeslot.start | date: '%H:%M' %}
+{% assign end = talk.timeslot.end | date: '%H:%M' %}
+{% if talk.title != "" %}
+
+{% assign speakers = talk.speakers | map: 'name' %}
+{% assign speakers_string = speakers | join: " & " %}
+
+  {% if talk.keynote %}
+    <li class="list-group-item keynote-talk">
+  {% else %}
+    <li class="list-group-item">
+  {% endif %}
+    {% if talk.details %}
+      <a href="{{ talk.url | relative_url }}">
+        <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }}<br>
+        <b>{{ talk.title }}</b>
+        <br>
+        <i>{{ speakers_string }}</i>
+      </a>
+      
+      {% if talk.recording_uri == null %}
+        <!--<i>&nbsp;</i>//-->
+      {% elsif talk.recording_uri contains "/dev/null" %}
+       - <i>not recorded</i>
+      {% elsif talk.recording_uri != "" %}
+       - <i><a href="{{ talk.recording_uri }}">[recording]</a></i>
+      {% endif %}
+      
+      {% if talk.slides_uri == null %}
+        <!--<i>&nbsp;</i>//-->
+      {% elsif talk.slides_uri contains "/dev/null" %}
+       - <i>no slides</i>
+      {% elsif talk.slides_uri != "" %}
+       - <i><a href="{{ talk.slides_uri }}">[slides]</a></i>
+      {% endif %}
+      
+    {% else %}
+      <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }}<br>
+      <b>{{ talk.title }}</b><br>
+      <i>{{ speakers_string }}</i>
+    {% endif %}
+  </li>
+{% endif %}
+{% endfor %}  
+          </ul>
+        </div>
+{% endfor %}  
+      </div>
+    </div>
+{% endif %}
+ 
+  </div>
+</section>
