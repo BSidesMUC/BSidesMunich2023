@@ -56,29 +56,29 @@ conference:
 # uncomment it to fill sponsors in
 
   links:
-    sponsorpackage_en_uri:  # /files/BSidesMunich2023Sponsorship-English.pdf
-    sponsorpackage_de_uri:  # /files/BSidesMunich2023Sponsorship-Deutsch.pdf
+    sponsorpackage_en_uri: /files/BSidesMunich2023Sponsorship-English.pdf
+    sponsorpackage_de_uri: /files/BSidesMunich2023Sponsorship-Deutsch.pdf
     cfp_uri: 
     contickets_uri: 
       
   dates: 
     deadline_tickets: 
     deadline_cfp: 
-    workshops: 
-    conference: 
+    workshops: 2023-10-14
+    conference: 2023-10-15
   venue:
     workshopsday:
       address: 
-      details: ""
+      details: "TBA"
       gps: 
         lat:  
         long:  
     conferenceday:
-      address: 
-      details: ""
+      address: Arabellastraße 6, 81925 München
+      details: "The Westin Grand Munich"
       gps: 
-        lat: 
-        long: 
+        lat: 48.1520938
+        long: 11.6149413
 
   archive:
     a2022:
