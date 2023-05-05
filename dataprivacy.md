@@ -94,42 +94,6 @@ Further information about the data protection offered by pretix can be found at:
 
 The data subject may cancel its registration and revoke its consent to the storage of this data at any time with future effect (support@pretix.eu). For instructions to take this step, please refer to pretix data privacy policy above.
 
-## Use of MailChimp
-
-**Newsletter Consent**
-
-The data subject will be asked to consent to the use of its personal data to receive our newsletter as follows: 
-
->“I have read the privacy policy and I give my consent to data being processed by a service provider located in the United States”.
-
-We use the newsletter to provide the data subject with updates about our offers and publications. To receive our newsletter, the data subject will need a valid email address. We will then check the email address entered to ensure that the data subject is actually its owner or if its owner has agreed to receive our newsletter. By registering for the newsletter, we will save its IP address and date and time of registration. This will be used in case a third party misuses its email address to subscribe to our newsletter without its knowledge. 
-
-We will not compare the data collected during newsletter registration with any other data that might be collected by other components of our site. 
-
-**Newsletter by MailChimp**
-
-We use MailChimp to send our newsletter to our subscribers. MailChimp is a service provided by The Rocket Science Group, LLC, 512 Means Street, Suite 404, Atlanta, GA 30318, USA. 
-
-The data stored when the data subject registered for the newsletter (email address, name, IP address, and time and date of registration) will be sent to a server operated by The Rocket Science Group in the United States and stored there in accordance with the EU-US Privacy Shield.
-
-Further information about the data protection offered by MailChimp can be found at: <a href="http://mailchimp.com/legal/privacy/">mailchimp.com</a>
-
-Further information about the EU-US Privacy Shield can be found at: <a href="http://ec.europa.eu/justice/data-protection/international-transfers/eu-us-privacy-shield/index_en.htm">ec.europa.eu</a>
-
-The data subject may cancel its newsletter subscription and revoke its consent to the storage of this data at any time with future effect. For instructions to take this step, please refer to the confirmation email and each newsletter.
-
-**Newsletter tracking**
-
-Our newsletter includes so-called web bugs that allow us to recognise if and when an email has been opened and which links in the email have been clicked by its recipient. 
-
-This data is stored by us so that we can best align our newsletter to the wishes and interests of our subscribers. Accordingly, the data thus collected is used to send personalised newsletters to each recipient. 
-
-The data subject will be asked to consent to the use of its personal data as follows:
-
-> “I agree that my data and my user responses will be stored electronically by newsletter tracking so that I can receive a personalised newsletter. The revocation of the consent to receive the newsletter constitutes a revocation of the consent for the tracking described above.”
-
-By revoking the consent to receive the newsletter, the consent to the aforementioned tracking is revoked. 
-
 
 ## Routine erasure and blocking of personal data
 The data controller shall process and store the personal data of the data subject only for the period necessary to achieve the purpose of storage, or as far as this is granted by the European legislator or other legislators in laws or regulations to which the controller is subject to.
