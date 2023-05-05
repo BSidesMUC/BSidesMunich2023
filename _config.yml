@@ -58,12 +58,12 @@ conference:
   links:
     sponsorpackage_en_uri: /files/BSidesMunich2023Sponsorship-English.pdf
     sponsorpackage_de_uri: /files/BSidesMunich2023Sponsorship-Deutsch.pdf
-    cfp_uri: 
+    cfp_uri: https://pretalx.com/bsidesmunich2023/cfp
     contickets_uri: 
       
   dates: 
     deadline_tickets: 
-    deadline_cfp: 
+    deadline_cfp: 2023-08-01
     workshops: 2023-10-14
     conference: 2023-10-15
   venue:
