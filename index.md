@@ -1,6 +1,6 @@
 ---
 layout: textpage
-title: BSides Munich 2023 - 7th Edition
+title: BSides Munich 2023 - 7 SYNs
 
 show_map: true
 ---
@@ -13,7 +13,7 @@ This event is free.
 This also means that the conference will be what every attendee makes of it.
 So the success of the event will depend on your active participation, give a talk (in English), create a workshop, design a challenge for other attendees, help with the CTF or sponsoring.
 
-Check back here for more information, [follow us on twitter]({{ site.conference.twitter }}) to get the latest about our conference!
+Check back here for more information, **[follow us on twitter]({{ site.conference.twitter }})** and **[join Discord]({{ site.conference.discord }})** to get the latest about our conference!
 
 {% include feature_dates.html %}
 
