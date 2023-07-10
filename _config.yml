@@ -68,11 +68,11 @@ conference:
     conference: 2023-10-15
   venue:
     workshopsday:
-      address: 
-      details: "TBA"
+      address: Lothstraße 64, 80335 München
+      details: "Hochschule München"
       gps: 
-        lat:  
-        long:  
+        lat: 48.1550877
+        long: 11.5552597
     conferenceday:
       address: Arabellastraße 6, 81925 München
       details: "The Westin Grand Munich"
