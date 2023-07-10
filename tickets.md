@@ -14,7 +14,7 @@ Also, sponsoring or volunteering is a great way to contribute to a superb BSides
 
 **Registration for the first batch of tickets will open on July 29, 2023 at 14:00 CEST.**
 
-**Registration for the first batch of tickets will open on August 27, 2023 at 14:00 CEST.**
+**Registration for the main batch of tickets will open on August 27, 2023 at 14:00 CEST.**
 
 The waiting list will open with the second batch of tickets.
 
