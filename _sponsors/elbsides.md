@@ -2,6 +2,6 @@
 level: 100 #community
 name: Elbsides
 logo: /img/sponsors/elbsides.png
-uri: https://elbsides.de
+uri: https://elbsides.eu
 handle: elbsides
 ---
