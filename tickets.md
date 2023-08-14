@@ -23,7 +23,7 @@ The waiting list will open with the second batch of tickets.
 Please take a look at the agenda for the scheduled workshops.
 Each workshop has a separate registration link on eventbrite.
 
-**Registration for the workshop tickets will open on September 1, 2023 at 14:00 CEST.**
+**Registration for the workshop tickets will open on September 1, 2023 at 18:00 CEST.**
 
 ## Questions
 
