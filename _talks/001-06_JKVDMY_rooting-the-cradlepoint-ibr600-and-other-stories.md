@@ -1,0 +1,22 @@
+---
+accepted: true
+code: JKVDMY
+details: true
+keynote: false
+layout: talk
+speakers:
+- bio: Sebastien is a security researcher focusing on embedded devices and hardware
+    security.
+  handle: false
+  name: Sebastien Leger
+  photo: ''
+timeslot:
+  duration: 30
+  end: 2023-10-15 13:00:00+02:00
+  start: 2023-10-15 12:30:00+02:00
+title: Rooting the Cradlepoint IBR600 and other Stories
+track: 1
+---
+
+The **Cradlepoint IBR600C** is a semi ruggedized router with LTE connectivity as well as Ethernet and Wi-Fi for [mission critical IoT](https://cradlepoint.com/product/endpoints/ibr600c-series/) and is mainly used in the US.
+In this talk we have a deeper look at some security issues we found in the device and its cloud connectivity.

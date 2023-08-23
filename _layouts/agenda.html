@@ -35,14 +35,18 @@ layout: default
 
     <div class="row">
        
-{% for track in (1..2) %}
-      <div class="p-6 col-lg-6 col-md-4">
+{% for track in (1..4) %}
+      <div class="p-4 col-lg-3 col-md-4">
         <div class="card">
           <div class="card-block text-center card-primary p-2">
             {% if track == 1 %}
-              <h2>Maltego Open Office</h2>
+              <h2>Room 1</h2>
             {% elsif track == 2 %}
-              <h2>Maltego Schulungsraum </h2>
+              <h2>Room 2 </h2>
+            {% elsif track == 3 %}
+              <h2>Room 3 </h2>
+            {% elsif track == 4 %}
+              <h2>Room 4 </h2>
             {% else %}
               <h2>Track {{ track }}</h2>
             {% endif %}
@@ -111,9 +115,9 @@ layout: default
         <div class="card">
           <div class="card-block text-center card-primary p-2">
           {% if track == 1 %}
-            <h2>Hilton Ballroom</h2>
+            <h2>Munich</h2>
           {% elsif track == 2 %}
-            <h2>Hilton Rumford </h2>
+            <h2>Partenkirchen</h2>
           {% else %}
             <h2>Track {{ track }}</h2>
           {% endif %}
