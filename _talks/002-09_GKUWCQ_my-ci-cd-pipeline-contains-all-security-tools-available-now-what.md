@@ -5,11 +5,13 @@ details: true
 keynote: false
 layout: talk
 speakers:
-- bio: I am an experienced application security consultant currently leading the Data
-    and Application Security Practice at IBM Security in DACH. I have extensive experience
-    in organizing and implementing secure development programs, DevSecOps, and secure
-    SDLC across different clients and industries. I like working with people and technology,
-    this has been the constant in my professional career and education.
+- bio: Jasmin is an experienced application security professional and Global Product
+    Security Manager at Leica Microsystems. She gained extensive experience in organizing
+    and implementing secure development programs, DevSecOps, and secure SDLC across
+    different clients while working as a consultant. Her passion is to build bridges
+    between cross-functional teams and finding new ways to improve collaboration.
+    She likes working with people and technology, this has been the constant in her
+    professional career and education.
   handle: false
   name: Jasmin
   photo: https://pretalx.com/media/avatars/IMG_7875_k2kdjTh.jpg
