@@ -13,7 +13,7 @@ speakers:
     She likes working with people and technology, this has been the constant in her
     professional career and education.
   handle: false
-  name: Jasmin
+  name: Jasmin Mair
   photo: https://pretalx.com/media/avatars/IMG_7875_k2kdjTh.jpg
 timeslot:
   duration: 30
