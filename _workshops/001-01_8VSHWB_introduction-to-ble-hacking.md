@@ -12,7 +12,7 @@ speakers:
 - bio: Daniel Schwendner is a DevOps Engineer with a strong passion for Cyber Security. With a background in mobile application security and hardware security, he participates in bug bounty hunting and shares his security knowledge online.
   handle: false
   name: Daniel Schwendner
-  photo: ''
+  photo: https://pretalx.com/media/avatars/face_JCwXZdP.jpg
 timeslot:
   duration: 240
   end: 2023-10-14 13:00:00+02:00
