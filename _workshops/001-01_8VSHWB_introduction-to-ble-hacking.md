@@ -9,7 +9,7 @@ speakers:
   handle: false
   name: Diego
   photo: ''
-- bio: Daniel Schwendner is a DevOps Engineer with a strong passion for Cyber Security. With a background in mobile application security and hardware security, he's participation in bug bounty hunting and sharing his security knowledge online under the handle @code_byter.
+- bio: Daniel Schwendner is a DevOps Engineer with a strong passion for Cyber Security. With a background in mobile application security and hardware security, he is participation in bug bounty hunting and sharing his security knowledge online under the handle @code_byter.
   handle: @code_byter
   name: Daniel Schwendner
   photo: ''
