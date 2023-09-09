@@ -10,7 +10,7 @@ speakers:
   name: Diego
   photo: ''
 - bio:
-  handle: @code_byter
+  handle: false
   name: Daniel Schwendner
   photo: ''
 timeslot:
