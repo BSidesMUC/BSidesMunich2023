@@ -7,7 +7,11 @@ layout: workshop
 speakers:
 - bio: N00b learning to hack.
   handle: false
-  name: Diego, Daniel Schwendner
+  name: Diego
+  photo: ''
+- bio:
+  handle: false
+  name: Daniel Schwendner
   photo: ''
 timeslot:
   duration: 240
