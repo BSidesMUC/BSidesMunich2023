@@ -15,8 +15,8 @@ speakers:
   name: Mackenzie Jackson
   photo: https://pretalx.com/media/avatars/Mack_portrait_2022_LQ-100_uotCUBe.jpg
 timeslot:
-  duration: 240
-  end: 2023-10-14 18:00:00+02:00
+  duration: 120
+  end: 2023-10-14 16:00:00+02:00
   start: 2023-10-14 14:00:00+02:00
 title: Set The Trap! Perimeter Defense with Honeytokens
 track: 2

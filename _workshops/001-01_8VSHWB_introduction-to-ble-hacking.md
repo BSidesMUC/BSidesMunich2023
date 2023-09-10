@@ -9,9 +9,11 @@ speakers:
   handle: false
   name: Diego
   photo: ''
-- bio: Daniel Schwendner is a DevOps Engineer with a strong passion for Cyber Security. With a background in mobile application security and hardware security, he participates in bug bounty hunting and shares his security knowledge online.
+- bio: Daniel Schwendner is a DevOps Engineer with a strong passion for Cyber Security.
+    With a background in mobile application security and hardware security, he participates
+    in bug bounty hunting and shares his security knowledge online.
   handle: false
-  name: Daniel Schwendner
+  name: Daniel Schwedner
   photo: https://pretalx.com/media/avatars/face_JCwXZdP.jpg
 timeslot:
   duration: 240

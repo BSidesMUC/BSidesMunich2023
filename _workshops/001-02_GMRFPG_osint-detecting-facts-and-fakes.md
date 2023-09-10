@@ -17,6 +17,6 @@ title: OSINT - Detecting facts and fakes
 track: 1
 ---
 
-The proposal addresses the (critical) challenge of discerning accurate information from misinformation and fake news in the vast digital landscape.
-An essential aspect of this proposal is to provide an overview and hands-on experience in modern OSINT tools and demonstrate their practical application in real-life scenarios.
-To achieve this, we will conduct a real life example where the dissemination of misinformation had significant implications on both journalism and IT security.
+This workshop addresses the (critical) challenge of discerning accurate information from misinformation and fake news in the vast digital landscape.
+Therefore it will provide an overview and hands-on experience in modern OSINT tools and demonstrate their practical application in real-life scenarios.
+To achieve this, a real life example will be conducted where the dissemination of misinformation had significant implications on both journalism and IT security.
