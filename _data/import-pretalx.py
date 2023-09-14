@@ -45,19 +45,33 @@ def logging():
 
 def main():
 
+    #logging()
+
     today = datetime.today().strftime('%Y-%m-%d')
     event = "bsidesmunich2023" # The current conference slug
 
-    speakers = None
-    filename = f'_data/{today}_speakers.json'
-    if os.path.isfile(filename):
-        with open(filename, 'r') as infile:
-            speakers = json.load(infile)
+    with requests.Session() as s:
+        s.headers = HEADERS
 
-    else:
+        #res = s.get(f'https://pretalx.com/api/events/{event}/')
+        res = s.get(f'https://pretalx.com/api/me')
+        #jdata = res.json()
+        jdata = res.json()
+        pprint(res.json())
+        if res.status_code == 401:
+            print('401 - {}'.format(jdata['detail']))
+            return
+        #input()
+        #pprint(jdata)
 
-        with requests.Session() as s:
-            s.headers = HEADERS
+
+        speakers = None
+        filename = f'_data/{today}_speakers.json'
+        if os.path.isfile(filename):
+            with open(filename, 'r') as infile:
+                speakers = json.load(infile)
+
+        else:
 
             #res = s.get(f'https://pretalx.com/api/events/{event}/')
             res = s.get(f'https://pretalx.com/api/me')
@@ -86,15 +100,12 @@ def main():
                 speakers = jdata_speakers
 
 
-    sessions = None
-    filename = f'_data/{today}_sessions.json'
-    if os.path.isfile(filename):
-        with open(filename, 'r') as infile:
-            sessions = json.load(infile)
-    else:
-
-        with requests.Session() as s:
-            s.headers = HEADERS
+        sessions = None
+        filename = f'_data/{today}_sessions.json'
+        if os.path.isfile(filename):
+            with open(filename, 'r') as infile:
+                sessions = json.load(infile)
+        else:
 
             #res = s.get(f'https://pretalx.com/api/events/{event}/talks')
             res = s.get(f'https://pretalx.com/api/events/{event}/submissions')
