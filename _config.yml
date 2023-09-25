@@ -50,7 +50,7 @@ conference:
   sponsors:
     contact: sponsors (at) bsidesmunich (dot) org
     #show the sponsors in the footer of every page
-    lookingfor: true
+    lookingfor: false
     footer: false #BETA
     # sponsor logos should all have the same format (at least width)
 # uncomment it to fill sponsors in

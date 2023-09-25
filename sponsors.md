@@ -5,6 +5,7 @@ permalink: /sponsors/
 
 ---
 
+<!-- 
 ## Get in Contact
 
 We are looking for sponsors.
@@ -26,3 +27,6 @@ You can put yourself in the conference limelight as you search for experts in in
 ### Media Reporting
 
 Security BSides conferences are known worldwide and have been mentioned in podcasts, blogs and print media. As a sponsor of BSides you will not only be noticed, but you are part of this community. For more information, see  securitybsides.org/Media.
+
+//--> 
+  
