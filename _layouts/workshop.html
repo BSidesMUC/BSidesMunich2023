@@ -30,8 +30,8 @@ layout: default
         <div class="block">
           <h2>Infos</h2>
           <p>
-          Start: {{ page.timeslot.start }}<br>
-          End: {{ page.timeslot.end }}<br>
+          Start: {{ page.timeslot.start | date: "%Y-%m-%d %H:%M" }}<br>
+          End: {{ page.timeslot.end | date: "%Y-%m-%d %H:%M"}}<br>
         {% if site.conference.venue.workshopsday.address %}
           Location: {{ site.conference.venue.workshopsday.address }}
         {% endif %}
