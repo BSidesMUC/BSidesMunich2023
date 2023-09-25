@@ -260,6 +260,8 @@ def main():
             post['track'] = 3
         elif session['slot']['room']['en'] == 'Hochschule - Room 4':
             post['track'] = 4
+        elif session['slot']['room']['en'] == 'Hochschule - Room 5':
+            post['track'] = 5
         elif session['slot']['room']['en'] == 'WestIn - Munich':
             post['track'] = 1
         elif session['slot']['room']['en'] == 'WestIn - Partenkirchen':
