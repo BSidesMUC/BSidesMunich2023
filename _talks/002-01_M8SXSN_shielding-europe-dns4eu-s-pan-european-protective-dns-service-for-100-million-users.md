@@ -14,10 +14,17 @@ speakers:
   handle: false
   name: Andronikos Kyriakou
   photo: https://pretalx.com/media/avatars/Andronikos_Profile_eXYsoR7.jpg
-- bio: null
+- bio: "Tomas Vogel is a security enthusiast with experience from both public and
+    private sector, interested in uncovering the How's and Why's of ever evolving
+    cyber threats, but also with legal aspects of security.\r\n\r\nCurrently working
+    as Threat Intelligence analyst at Whalebone, researching emerging threats and
+    developing systems for detection of malicious domains for protective DNS solution.
+    Before joining Whalebone, Tomas worked as a Security analyst and Incident responder
+    at GovCERT.CZ of National Cyber and Information Security Agency, dealing with
+    incidents at government entities and critical infrastructure systems."
   handle: false
   name: Tomas Vogel
-  photo: ''
+  photo: https://pretalx.com/media/avatars/IMG-20230914-WA0000_8Q0PNtp.jpg
 timeslot:
   duration: 30
   end: 2023-10-15 10:30:00+02:00
