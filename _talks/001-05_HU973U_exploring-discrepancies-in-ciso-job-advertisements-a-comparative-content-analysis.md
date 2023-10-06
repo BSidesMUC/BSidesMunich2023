@@ -9,10 +9,8 @@ speakers:
   handle: false
   name: Leonhard Kurthen
   photo: ''
-- bio: Daniel Fall and Leonhard Kurthen are both working as advisors in the field
-    of information security and have been working as and with (Chief) Information
-    Security Officers in the past. Both share a background in computer science and
-    have been for working for several public accountants.
+- bio: Daniel Fall is a Managing Partner at difesa with a focus on compliance and
+    risk management in the context of information security.
   handle: false
   name: Daniel Fall
   photo: https://pretalx.com/media/avatars/DFA_Small_1_F8uZmQE.jpg

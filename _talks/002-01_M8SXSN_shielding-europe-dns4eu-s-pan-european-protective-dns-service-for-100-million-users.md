@@ -34,16 +34,6 @@ title: 'Shielding Europe: DNS4EU''s Pan-European Protective DNS Service for 100 
 track: 2
 ---
 
-DNS4EU is a secure and privacy-compliant recursive DNS resolver that provides a European alternative to public DNS resolvers operated by non-EU entities.
-The project is a key policy action of the EU's Cybersecurity Strategy, aiming to ensure European internet sovereignty and protect EU-based internet users from both global and local cybersecurity threats (e.g.
-phishing campaigns in local languages).
-
-Led by Whalebone, the consortium deploying the service consists of multiple cybersecurity experts, such as CERTs, Public/ Research institutions, Academia, private companies, and NGOs.
-The primary goal of the project is to safeguard the privacy and security of 100 million Internet users, with optional services such as parental control and paid premium services for corporate environments.
-In addition, the consortium has placed a strong emphasis on ensuring the infrastructure complies with EU data protection and privacy laws, further enhancing the trust and confidence in the service.
-
-In this presentation, we will delve into the architecture of DNS4EU and its deployment considerations.
-Additionally, we will discuss the steps necessary to offer state-of-the-art protection based on reliable threat intelligence and information exchange with trusted partners (e.g.
-CERTS), as well as, explore options for community contribution and implementation activities that can pave the way for community ownership of the service.
-
-More information on the DNS4EU project can be found at: https://www.whalebone.io/dns4eu and https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/cef-dig-2021-cloud-dns-works
+DNS4EU is a European DNS resolver project designed to enhance online privacy and security for EU internet users.
+Led by Whalebone and consortium members consisting of cybersecurity experts, it aims to protect 100 million users from global and local cyber threats while complying with EU data protection laws.
+This presentation explores DNS4EU's architecture, deployment, threat intelligence sharing, and community involvement.
