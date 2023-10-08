@@ -252,15 +252,15 @@ def main():
             print(post_folder)
             input()
 
-        if session['slot']['room']['en'] == 'Hochschule - Room 1':
+        if session['slot']['room']['en'] == 'Hochschule München - R0.009':
             post['track'] = 1
-        elif session['slot']['room']['en'] == 'Hochschule - Room 2':
+        elif session['slot']['room']['en'] == 'Hochschule München - R1.006':
             post['track'] = 2
-        elif session['slot']['room']['en'] == 'Hochschule - Room 3':
+        elif session['slot']['room']['en'] == 'Hochschule München - R1.008':
             post['track'] = 3
-        elif session['slot']['room']['en'] == 'Hochschule - Room 4':
+        elif session['slot']['room']['en'] == 'Hochschule München - R1.007':
             post['track'] = 4
-        elif session['slot']['room']['en'] == 'Hochschule - Room 5':
+        elif session['slot']['room']['en'] == 'Hochschule München - R0.010':
             post['track'] = 5
         elif session['slot']['room']['en'] == 'WestIn - Munich':
             post['track'] = 1
