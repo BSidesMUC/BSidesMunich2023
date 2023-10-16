@@ -21,7 +21,7 @@ timeslot:
 title: Breaking the Ransomware Tool Set – When a Threat Actor Opsec Failure Became
   a Threat Intel Goldmine
 track: 1
-slides_uri: /files/slides/001-09_LVFGUT - Nicklas Keijser_Breaking the Ransomware Toolset.pptx
+slides_uri: /files/slides/001-09_LVFGUT - Nicklas Keijser_Breaking the Ransomware Toolset.pdf
 recording_uri: 
 ---
 
