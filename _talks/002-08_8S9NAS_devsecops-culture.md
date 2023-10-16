@@ -25,6 +25,8 @@ timeslot:
   start: 2023-10-15 15:30:00+02:00
 title: DevSecOps culture
 track: 2
+slides_uri: /files/slides/002-08_8S9NAS - Ali Yazdani_DevSecOps culture.pdf
+recording_uri: 
 ---
 
 - let's review the whole DevSecOps concept together.

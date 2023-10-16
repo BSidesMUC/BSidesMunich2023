@@ -23,6 +23,8 @@ timeslot:
 title: 'What We’ve Learned from Exposing Atlassian on the Internet: In-Depth Analysis
   from an Offensive Perspective'
 track: 2
+slides_uri: /files/slides/002-07_3HLCPX - OleksandrKazymyrov_What We’ve Learned from Exposing Atlassian on the Internet In-Depth Analysis from an Offensive Perspective.pdf
+recording_uri: 
 ---
 
 During a recent security assessment of Storebrand's modern environment hosted on Azure, the offensive team identified several attack vectors from the Internet that could compromise the organization's assets.

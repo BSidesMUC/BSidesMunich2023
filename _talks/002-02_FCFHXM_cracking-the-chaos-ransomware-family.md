@@ -21,6 +21,8 @@ timeslot:
   start: 2023-10-15 10:30:00+02:00
 title: Cracking the chaos ransomware family
 track: 2
+slides_uri: /files/slides/002-02_FCFHXM - Alexander_Cracking the chaos ransomware family.pdf
+recording_uri: 
 ---
 
 In the last few years, many organizations have suffered from ransomware attacks.

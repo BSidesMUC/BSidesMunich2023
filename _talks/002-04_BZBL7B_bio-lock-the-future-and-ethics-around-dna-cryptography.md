@@ -19,6 +19,8 @@ timeslot:
   start: 2023-10-15 12:00:00+02:00
 title: Bio-Lock The future and ethics around DNA Cryptography
 track: 2
+slides_uri: /files/slides/002-04_BZBL7B - TaylaSellschop_Bio-Lock The future and ethics around DNA Cryptography.pptx
+recording_uri: 
 ---
 
 DNA cryptography is one of the few solutions to encryption as quantum cryptography comes into the fold.

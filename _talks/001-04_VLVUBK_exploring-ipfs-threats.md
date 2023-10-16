@@ -15,6 +15,8 @@ timeslot:
   start: 2023-10-15 11:30:00+02:00
 title: Exploring IPFS threats
 track: 1
+slides_uri: 
+recording_uri: 
 ---
 
 Even if Web3 usage is still tiny compared with the Web 2.0, that has not stopped bad actors from misusing some of its technology stack.

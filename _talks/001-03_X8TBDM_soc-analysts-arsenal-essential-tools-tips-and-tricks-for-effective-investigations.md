@@ -18,6 +18,8 @@ timeslot:
   start: 2023-10-15 10:30:00+02:00
 title: 'SOC Analyst’s Arsenal: Essential Tools, Tips and Tricks for Effective Investigations'
 track: 1
+slides_uri: /files/slides/001-03_X8TBDM - Samuel Kavaler_SOC Analyst’s Arsenal.pptx
+recording_uri: 
 ---
 
 In the ever-evolving landscape of cybersecurity threats, SOC analysts play a vital role in detecting, investigating, and responding to incidents.

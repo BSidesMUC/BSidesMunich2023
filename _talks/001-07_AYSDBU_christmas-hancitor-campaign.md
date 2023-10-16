@@ -18,6 +18,8 @@ timeslot:
   start: 2023-10-15 14:00:00+02:00
 title: Christmas Hancitor Campaign
 track: 1
+slides_uri: /files/slides/001-07_AYSDBU - Artem Artemov_Christmas Hancitor Campaign.pdf
+recording_uri: 
 ---
 
 Security teams are tasked with defending their organization from incoming attacks, but in the rapidly changing environments how can they stay ahead of threat actors?

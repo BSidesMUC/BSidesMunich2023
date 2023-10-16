@@ -32,6 +32,8 @@ timeslot:
 title: 'Shielding Europe: DNS4EU''s Pan-European Protective DNS Service for 100 Million
   Users!'
 track: 2
+slides_uri: /files/slides/002-01_M8SXSN - Andronikos Kyriakou _ Tomas Vogel_Shielding Europe - DNS4EU.pptx
+recording_uri: 
 ---
 
 DNS4EU is a European DNS resolver project designed to enhance online privacy and security for EU internet users.

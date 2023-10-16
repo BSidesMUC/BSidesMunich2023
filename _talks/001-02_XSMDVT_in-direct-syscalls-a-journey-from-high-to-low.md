@@ -28,6 +28,8 @@ timeslot:
   start: 2023-10-15 10:00:00+02:00
 title: '(In)direct Syscalls: A journey from high to low'
 track: 1
+slides_uri: /files/slides/001-02_XSMDVT - Daniel Feichter_(In)direct Syscalls_ A journey from high to low.pdf
+recording_uri: 
 ---
 
 Over the last 2-3 years, detection of in-memory malware by EDRs has improved.

@@ -26,6 +26,8 @@ timeslot:
 title: Secure containers - Do component reduction strategies fix your container security
   nightmares?
 track: 2
+slides_uri: /files/slides/002-05_YYBLSM - Michael Wager _ Michael Helwig_Secure containers - Do component reduction strategies fix your container security nightmares.pdf
+recording_uri: 
 ---
 
 Container security issues are an ongoing topic in organizations.

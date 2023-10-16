@@ -19,6 +19,8 @@ timeslot:
   start: 2023-10-15 16:40:00+02:00
 title: Security by design
 track: 1
+slides_uri: /files/slides/001-11_S9WRGX - Ana Oprea_SecurityByDesign.pptx
+recording_uri: 
 ---
 
 Can a system ever truly be considered reliable if we didn't do the diligence of making it fundamentally secure? 

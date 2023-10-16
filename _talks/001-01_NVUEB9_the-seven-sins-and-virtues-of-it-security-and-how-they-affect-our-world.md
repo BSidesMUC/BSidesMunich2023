@@ -22,6 +22,8 @@ timeslot:
   start: 2023-10-15 09:10:00+02:00
 title: The Seven Sins. And Virtues. Of IT Security. And how they affect our world.
 track: 1
+slides_uri: /files/slides/001-01_NVUEB9 - Mario_seven-sins-keynote.pdf
+recording_uri: 
 ---
 
 In this early morning sermon, our dear Reverend will shed light on

@@ -18,6 +18,8 @@ timeslot:
   start: 2023-10-15 14:00:00+02:00
 title: The current state of ransomware
 track: 2
+slides_uri: /files/slides/002-06_NYKHL7 - Sebastian Gebhard_The current state of ransomware.pdf
+recording_uri: 
 ---
 
 Ransomware is the most present threat in Cyber Security today, making the headlines almost every week.
