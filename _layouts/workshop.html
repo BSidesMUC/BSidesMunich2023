@@ -22,6 +22,27 @@ layout: default
 </section>
 {% endif %}
 
+
+{% if page.slides_uri %}
+<!-- Call to action Start -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+    
+      <div class="col-md-6 col-md-offset-3">
+        <div class="block">
+          <h2>Slides</h2>
+          <p>{{ page.slides_uri }}</p>
+          <a class="btn btn-default btn-call-to-action" href="{{ page.slides_uri }}">View Slides</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+{% endif %}
+{% endif %}
+
 <!-- Call to action Start -->
 <section id="agenda">
   <div class="container">
