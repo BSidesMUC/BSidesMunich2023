@@ -15,7 +15,7 @@ timeslot:
   start: 2023-10-15 11:30:00+02:00
 title: Exploring IPFS threats
 track: 1
-slides_uri: 
+slides_uri: /files/slides/001-04_VLVUBK - Exploring IPFS Threats - BSidesMunich.pdf
 recording_uri: 
 ---
 
