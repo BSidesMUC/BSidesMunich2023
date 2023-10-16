@@ -20,7 +20,7 @@ timeslot:
   start: 2023-10-14 09:00:00+02:00
 title: The Hitchhacker's Guide to the Mobile Galaxy
 track: 3
-slides_uri: /files/slides/001-09_LVFGUT - Nicklas Keijser_Breaking the Ransomware Toolset.pdf
+slides_uri: /files/slides/003-01_MWSLBH - Hitchhacker_BSides-Munich-2023_Handout.pdf
 ---
 
 The mobile galaxy is dominated by two solar systems: Android and iOS.
