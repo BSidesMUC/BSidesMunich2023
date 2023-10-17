@@ -21,7 +21,7 @@ timeslot:
 title: 'Exploring Discrepancies in CISO Job Advertisements: A Comparative Content
   Analysis'
 track: 1
-slides_uri: /files/slides/001-05_HU973U - Leonhard Kurthen _ Daniel Fall_Exploring Discrepancies in CISO Job Advertisements.pptx
+slides_uri: /files/slides/001-05_HU973U - Leonhard Kurthen _ Daniel Fall_Exploring Discrepancies in CISO Job Advertisements.pdf
 recording_uri: 
 ---
 
