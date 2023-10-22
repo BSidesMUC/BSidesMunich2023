@@ -19,7 +19,7 @@ timeslot:
 title: The current state of ransomware
 track: 2
 slides_uri: /files/slides/002-06_NYKHL7 - Sebastian Gebhard_The current state of ransomware.pdf
-recording_uri: 
+recording_uri: https://www.youtube.com/watch?v=J3yv6pmY4GM&list=PL8N5HiRDvZ-dVdLNXf6kC3WDi8AWBS27g&index=19
 ---
 
 Ransomware is the most present threat in Cyber Security today, making the headlines almost every week.

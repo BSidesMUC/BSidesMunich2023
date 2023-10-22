@@ -22,7 +22,7 @@ title: Breaking the Ransomware Tool Set – When a Threat Actor Opsec Failure Be
   a Threat Intel Goldmine
 track: 1
 slides_uri: /files/slides/001-09_LVFGUT - Nicklas Keijser_Breaking the Ransomware Toolset.pdf
-recording_uri: 
+recording_uri: https://www.youtube.com/watch?v=SAqqc7jczqQ&list=PL8N5HiRDvZ-dVdLNXf6kC3WDi8AWBS27g&index=10
 ---
 
 During a recent incident response engagement, I was assigned to reverse engineer the RAT that the threat actor had deployed in the environment.

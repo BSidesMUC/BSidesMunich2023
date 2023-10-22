@@ -20,7 +20,7 @@ timeslot:
 title: SiERRA - Automating and scaling forensic investigations at Siemens CERT
 track: 1
 slides_uri: /files/slides/001-08_7URCLN - Demian Kellermann_SiERRA.pptx
-recording_uri: 
+recording_uri: https://www.youtube.com/watch?v=dSXrS2M4ymI&list=PL8N5HiRDvZ-dVdLNXf6kC3WDi8AWBS27g&index=9
 ---
 
 Usually, a forensic investigation of a breach involves a lot of data conversions, loose files and the investigator's personal collection of favorite tools.

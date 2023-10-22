@@ -16,7 +16,7 @@ timeslot:
 title: Exploring IPFS threats
 track: 1
 slides_uri: /files/slides/001-04_VLVUBK - Exploring IPFS Threats - BSidesMunich.pdf
-recording_uri: 
+recording_uri: https://www.youtube.com/watch?v=4jJD8WY9n8s&list=PL8N5HiRDvZ-dVdLNXf6kC3WDi8AWBS27g&index=5
 ---
 
 Even if Web3 usage is still tiny compared with the Web 2.0, that has not stopped bad actors from misusing some of its technology stack.

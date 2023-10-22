@@ -29,7 +29,7 @@ timeslot:
 title: '(In)direct Syscalls: A journey from high to low'
 track: 1
 slides_uri: /files/slides/001-02_XSMDVT - Daniel Feichter_(In)direct Syscalls_ A journey from high to low.pdf
-recording_uri: 
+recording_uri: https://www.youtube.com/watch?v=lyYzSKMPD4w&list=PL8N5HiRDvZ-dVdLNXf6kC3WDi8AWBS27g&index=4
 ---
 
 Over the last 2-3 years, detection of in-memory malware by EDRs has improved.

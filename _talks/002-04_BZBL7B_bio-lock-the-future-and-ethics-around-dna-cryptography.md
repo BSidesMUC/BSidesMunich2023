@@ -20,7 +20,7 @@ timeslot:
 title: Bio-Lock The future and ethics around DNA Cryptography
 track: 2
 slides_uri: /files/slides/002-04_BZBL7B - TaylaSellschop_Bio-Lock The future and ethics around DNA Cryptography.pptx
-recording_uri: 
+recording_uri: https://www.youtube.com/watch?v=B-LOWAqrcuU&list=PL8N5HiRDvZ-dVdLNXf6kC3WDi8AWBS27g&index=17
 ---
 
 DNA cryptography is one of the few solutions to encryption as quantum cryptography comes into the fold.

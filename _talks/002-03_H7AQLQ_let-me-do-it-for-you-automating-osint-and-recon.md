@@ -18,7 +18,7 @@ timeslot:
 title: Let me do it for you - Automating OSINT and Recon
 track: 2
 slides_uri: /files/slides/002-03_H7AQLQ - Paul Zenker - Let me do it for you - Automating OSINT.pptx
-recording_uri: 
+recording_uri: https://www.youtube.com/watch?v=zvcjEkdd2W0&list=PL8N5HiRDvZ-dVdLNXf6kC3WDi8AWBS27g&index=16
 ---
 
 In the areas of offensive and defensive security, valuable information and insights derived from OSINT and reconnaissance are the backbone of success.

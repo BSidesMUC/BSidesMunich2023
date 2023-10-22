@@ -20,7 +20,7 @@ timeslot:
 title: Security by design
 track: 1
 slides_uri: /files/slides/001-11_S9WRGX - Ana Oprea_SecurityByDesign.pptx
-recording_uri: 
+recording_uri: https://www.youtube.com/watch?v=aJPdbdwO-pw&list=PL8N5HiRDvZ-dVdLNXf6kC3WDi8AWBS27g&index=21
 ---
 
 Can a system ever truly be considered reliable if we didn't do the diligence of making it fundamentally secure? 

@@ -28,7 +28,7 @@ timeslot:
 title: 'Honeypot Boo Boo: Better Breach Detection with Deception Inception'
 track: 1
 slides_uri: /files/slides/001-10_YCGPDX - Justin Varner - Honeypot Boo Boo - Better Breach Detection With Deception Inception.pdf
-recording_uri: 
+recording_uri: https://www.youtube.com/watch?v=pvnYdZrlR5Y&list=PL8N5HiRDvZ-dVdLNXf6kC3WDi8AWBS27g&index=11
 ---
 
 Breaches continue happening at unprecedented levels with huge financial impact to the global economy year after year.

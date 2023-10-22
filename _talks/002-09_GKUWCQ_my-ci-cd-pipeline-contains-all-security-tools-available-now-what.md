@@ -22,7 +22,7 @@ timeslot:
 title: My CI/CD pipeline contains all security tools available! Now what...?
 track: 2
 slides_uri: /files/slides/002-09_GKUWCQ - Jasmin Mair_My CICD pipeline contains all security tools available! Now what.pptx
-recording_uri: 
+recording_uri: https://www.youtube.com/watch?v=TUe2QlP0FhE&list=PL8N5HiRDvZ-dVdLNXf6kC3WDi8AWBS27g&index=12
 ---
 
 Tools are helpful to enable DevSecOps, many challenges and pitfalls highlight the need for a cultural shift.

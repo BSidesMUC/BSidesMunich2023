@@ -19,7 +19,7 @@ timeslot:
 title: 'SOC Analyst’s Arsenal: Essential Tools, Tips and Tricks for Effective Investigations'
 track: 1
 slides_uri: /files/slides/001-03_X8TBDM - Samuel Kavaler_SOC Analyst’s Arsenal.pptx
-recording_uri: 
+recording_uri: https://www.youtube.com/watch?v=EdUUt4r2EbA&list=PL8N5HiRDvZ-dVdLNXf6kC3WDi8AWBS27g&index=4
 ---
 
 In the ever-evolving landscape of cybersecurity threats, SOC analysts play a vital role in detecting, investigating, and responding to incidents.

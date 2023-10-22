@@ -26,7 +26,7 @@ timeslot:
 title: DevSecOps culture
 track: 2
 slides_uri: /files/slides/002-08_8S9NAS - Ali Yazdani_DevSecOps culture.pdf
-recording_uri: 
+recording_uri: https://www.youtube.com/watch?v=YfB-Rw7RX0k&list=PL8N5HiRDvZ-dVdLNXf6kC3WDi8AWBS27g&index=13
 ---
 
 - let's review the whole DevSecOps concept together.

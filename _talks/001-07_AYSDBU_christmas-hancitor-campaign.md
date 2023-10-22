@@ -19,7 +19,7 @@ timeslot:
 title: Christmas Hancitor Campaign
 track: 1
 slides_uri: /files/slides/001-07_AYSDBU - Artem Artemov_Christmas Hancitor Campaign.pdf
-recording_uri: 
+recording_uri: https://www.youtube.com/watch?v=-N67xrL82L8&list=PL8N5HiRDvZ-dVdLNXf6kC3WDi8AWBS27g&index=8
 ---
 
 Security teams are tasked with defending their organization from incoming attacks, but in the rapidly changing environments how can they stay ahead of threat actors?

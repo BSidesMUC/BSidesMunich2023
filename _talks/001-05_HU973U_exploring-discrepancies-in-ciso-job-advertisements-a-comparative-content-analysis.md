@@ -22,7 +22,7 @@ title: 'Exploring Discrepancies in CISO Job Advertisements: A Comparative Conten
   Analysis'
 track: 1
 slides_uri: /files/slides/001-05_HU973U - Leonhard Kurthen _ Daniel Fall_Exploring Discrepancies in CISO Job Advertisements.pdf
-recording_uri: 
+recording_uri: https://www.youtube.com/watch?v=PHztHjtZ81U&list=PL8N5HiRDvZ-dVdLNXf6kC3WDi8AWBS27g&index=6
 ---
 
 This study presents a **qualitative content analysis** of public job advertisements for the position of **Chief Information Security Officer (CISO)** in both the DACH area (Germany, Austria, and Switzerland) and the United States of America.

@@ -17,7 +17,7 @@ timeslot:
 title: Rooting the Cradlepoint IBR600 and other Stories
 track: 1
 slides_uri: /files/slides/001-06_JKVDMY - SebastienLeger_Rooting the Cradlepoint IBR600 and other Stories.pdf
-recording_uri: 
+recording_uri: https://www.youtube.com/watch?v=9vFiQT1vbfg&list=PL8N5HiRDvZ-dVdLNXf6kC3WDi8AWBS27g&index=7
 ---
 
 The **Cradlepoint IBR600C** is a semi ruggedized router with LTE connectivity as well as Ethernet and Wi-Fi for [mission critical IoT](https://cradlepoint.com/product/endpoints/ibr600c-series/) and is mainly used in the US.
