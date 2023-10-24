@@ -22,7 +22,7 @@ timeslot:
 title: Cracking the chaos ransomware family
 track: 2
 slides_uri: /files/slides/002-02_FCFHXM - Alexander_Cracking the chaos ransomware family.pdf
-recording_uri: https://www.youtube.com/watch?v=sQcsfAIL9wk&list=PL8N5HiRDvZ-dVdLNXf6kC3WDi8AWBS27g&index=15
+recording_uri: https://www.youtube.com/watch?v=CQ0J_LViyrM&list=PL8N5HiRDvZ-dVdLNXf6kC3WDi8AWBS27g&index=13
 ---
 
 In the last few years, many organizations have suffered from ransomware attacks.
