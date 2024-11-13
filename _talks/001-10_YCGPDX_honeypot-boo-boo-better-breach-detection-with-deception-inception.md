@@ -20,7 +20,7 @@ speakers:
     appeals to people from all backgrounds."
   handle: false
   name: Justin Varner
-  photo: ''
+  photo: https://pretalx.com/media/avatars/SGXJMZ_PpOOxLC.jpg
 timeslot:
   duration: 30
   end: 2023-10-15 16:30:00+02:00

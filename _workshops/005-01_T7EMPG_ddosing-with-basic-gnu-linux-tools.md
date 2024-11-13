@@ -10,7 +10,7 @@ speakers:
     Algorithm Development, Technical Documentation.\r\nSOC Engineer at Cloudflare"
   handle: false
   name: Cansu Topukçu
-  photo: https://pretalx.com/media/avatars/Screenshot_2023-05-04_at_11.18.11_AM_0eZxcQY.png
+  photo: https://pretalx.com/media/avatars/VSAVK8_YerRB9k.png
 timeslot:
   duration: 120
   end: 2023-10-14 11:00:00+02:00

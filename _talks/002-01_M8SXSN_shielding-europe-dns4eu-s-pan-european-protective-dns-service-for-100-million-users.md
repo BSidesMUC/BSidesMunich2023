@@ -13,7 +13,7 @@ speakers:
     Deployment of Honeypots at BSides Athens 2018.
   handle: false
   name: Andronikos Kyriakou
-  photo: https://pretalx.com/media/avatars/Andronikos_Profile_eXYsoR7.jpg
+  photo: https://pretalx.com/media/avatars/LLRZL9_udWNKkZ.jpg
 - bio: "Tomas Vogel is a security enthusiast with experience from both public and
     private sector, interested in uncovering the How's and Why's of ever evolving
     cyber threats, but also with legal aspects of security.\r\n\r\nCurrently working
@@ -24,7 +24,7 @@ speakers:
     incidents at government entities and critical infrastructure systems."
   handle: false
   name: Tomas Vogel
-  photo: https://pretalx.com/media/avatars/IMG-20230914-WA0000_8Q0PNtp.jpg
+  photo: https://pretalx.com/media/avatars/N3RCPU_GZmzoKK.jpg
 timeslot:
   duration: 30
   end: 2023-10-15 10:30:00+02:00

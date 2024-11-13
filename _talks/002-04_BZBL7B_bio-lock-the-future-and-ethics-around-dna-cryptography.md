@@ -12,7 +12,7 @@ speakers:
     and make a positive impact in the world
   handle: false
   name: Tayla Sellschop
-  photo: https://pretalx.com/media/avatars/IMG_0203_Xo3v3x4.jpeg
+  photo: https://pretalx.com/media/avatars/YM3FHZ_HLOBvmm.jpeg
 timeslot:
   duration: 30
   end: 2023-10-15 12:30:00+02:00

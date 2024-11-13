@@ -14,7 +14,7 @@ speakers:
     professional career and education.
   handle: false
   name: Jasmin Mair
-  photo: https://pretalx.com/media/avatars/IMG_7875_k2kdjTh.jpg
+  photo: https://pretalx.com/media/avatars/DRJRYT_VWLC9pA.jpg
 timeslot:
   duration: 30
   end: 2023-10-15 16:30:00+02:00

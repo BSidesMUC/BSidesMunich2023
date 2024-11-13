@@ -10,7 +10,7 @@ speakers:
     I have coded automated solutions for different requirements.
   handle: false
   name: Paul Zenker
-  photo: ''
+  photo: https://pretalx.com/media/avatars/FSPVH8_T7FsK64.jpg
 timeslot:
   duration: 30
   end: 2023-10-15 12:00:00+02:00

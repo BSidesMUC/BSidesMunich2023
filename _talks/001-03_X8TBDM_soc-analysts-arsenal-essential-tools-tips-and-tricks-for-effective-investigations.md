@@ -11,7 +11,7 @@ speakers:
     all things related to SOC with main interests in SecOps, Threat Hunting and DFIR.
   handle: false
   name: Samuel Kavaler
-  photo: https://pretalx.com/media/avatars/20211005_113147_5EIsmzT.jpg
+  photo: https://pretalx.com/media/avatars/ELGQPB_yFgzKA3.jpg
 timeslot:
   duration: 30
   end: 2023-10-15 11:00:00+02:00

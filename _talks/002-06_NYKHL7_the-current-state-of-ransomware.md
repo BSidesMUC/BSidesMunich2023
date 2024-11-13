@@ -11,7 +11,7 @@ speakers:
     in IT with a background in Electrical Engineering."
   handle: false
   name: Sebastian Gebhard
-  photo: https://pretalx.com/media/avatars/CT-1515-small_m5rilmU.jpg
+  photo: https://pretalx.com/media/avatars/E3JREM_kmMW8J4.jpg
 timeslot:
   duration: 30
   end: 2023-10-15 14:30:00+02:00

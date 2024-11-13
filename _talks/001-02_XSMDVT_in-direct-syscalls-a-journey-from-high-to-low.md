@@ -21,7 +21,7 @@ speakers:
     his greatest passion is teaching other infosec professionals around the world.
   handle: false
   name: Daniel Feichter
-  photo: https://pretalx.com/media/avatars/f4ad01758c3e951c7e77cb80882fb6e7_Mc0LrrK.jpg
+  photo: https://pretalx.com/media/avatars/C3GT7F_tVTndoz.jpg
 timeslot:
   duration: 30
   end: 2023-10-15 10:30:00+02:00

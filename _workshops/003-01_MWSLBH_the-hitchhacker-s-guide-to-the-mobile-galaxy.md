@@ -13,7 +13,7 @@ speakers:
     of making learning more fun and is curious to always learn new things herself.​"
   handle: false
   name: Claudia Ully
-  photo: https://pretalx.com/media/avatars/Claudia-Ully_square_3a367PD.jpg
+  photo: https://pretalx.com/media/avatars/EWF9WB_y8EPTgl.jpg
 timeslot:
   duration: 480
   end: 2023-10-14 18:00:00+02:00

@@ -14,7 +14,7 @@ speakers:
     forensic capabilities.
   handle: false
   name: Alexander
-  photo: https://pretalx.com/media/avatars/alex23_DJPAhPK.jpg
+  photo: https://pretalx.com/media/avatars/KVD3EB_hM3AccM.jpg
 timeslot:
   duration: 30
   end: 2023-10-15 11:00:00+02:00

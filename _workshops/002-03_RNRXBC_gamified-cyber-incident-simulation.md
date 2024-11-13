@@ -21,7 +21,7 @@ speakers:
     serves as the Information Security Officer at M.Asam GmbH."
   handle: false
   name: Klaus-E. Klingner
-  photo: https://pretalx.com/media/avatars/klingner_-_300_dpi_RdB5D1v.jpg
+  photo: https://pretalx.com/media/avatars/7MYCSX_CZhcD77.jpg
 timeslot:
   duration: 120
   end: 2023-10-14 18:00:00+02:00

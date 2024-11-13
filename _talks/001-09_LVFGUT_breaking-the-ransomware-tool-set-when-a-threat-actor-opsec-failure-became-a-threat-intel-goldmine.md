@@ -13,7 +13,7 @@ speakers:
     in the Swedish Civil Contingencies Agency.
   handle: false
   name: Nicklas Keijser
-  photo: https://pretalx.com/media/avatars/Nicklas_Keijser2_GgEwYWe.png
+  photo: https://pretalx.com/media/avatars/U7W3UP_QNaJnT1.png
 timeslot:
   duration: 30
   end: 2023-10-15 16:00:00+02:00

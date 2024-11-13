@@ -17,7 +17,7 @@ speakers:
     around the world, his afternoon coffee ritual, and a few rounds of Apex Legends.
   handle: false
   name: Pieter De Cremer
-  photo: https://pretalx.com/media/avatars/PXL_20230316_123017650_BZGmU5f.jpg
+  photo: https://pretalx.com/media/avatars/3EBSWH_9s9Og8t.jpg
 timeslot:
   duration: 480
   end: 2023-10-14 18:00:00+02:00

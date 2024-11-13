@@ -13,7 +13,7 @@ speakers:
     to show how malicious actors discover and exploit vulnerabilities in code."
   handle: false
   name: Mackenzie Jackson
-  photo: https://pretalx.com/media/avatars/Mack_portrait_2022_LQ-100_uotCUBe.jpg
+  photo: https://pretalx.com/media/avatars/XTHEL8_MplXHAA.jpg
 timeslot:
   duration: 120
   end: 2023-10-14 16:00:00+02:00

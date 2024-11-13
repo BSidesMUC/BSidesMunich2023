@@ -12,7 +12,7 @@ speakers:
     when facing any challenge
   handle: false
   name: Ana Oprea
-  photo: https://pretalx.com/media/avatars/ana_2CvnoMn.jpg
+  photo: https://pretalx.com/media/avatars/PJMPW8_EWb4GpO.jpg
 timeslot:
   duration: 30
   end: 2023-10-15 17:10:00+02:00

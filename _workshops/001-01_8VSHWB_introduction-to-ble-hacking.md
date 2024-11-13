@@ -14,7 +14,7 @@ speakers:
     in bug bounty hunting and shares his security knowledge online.
   handle: false
   name: Daniel Schwendner
-  photo: https://pretalx.com/media/avatars/face_JCwXZdP.jpg
+  photo: https://pretalx.com/media/avatars/3GKHMR_qnRFiAA.jpg
 timeslot:
   duration: 240
   end: 2023-10-14 13:00:00+02:00

@@ -15,7 +15,7 @@ speakers:
     video, yet as enlightening as the shining light of your screen at 2 a.m."
   handle: false
   name: Mario Heiderich
-  photo: https://pretalx.com/media/avatars/Heiderich_00048-3213309502_netensr.png
+  photo: https://pretalx.com/media/avatars/BSQEXX_Vlp0jRV.png
 timeslot:
   duration: 30
   end: 2023-10-15 09:40:00+02:00

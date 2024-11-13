@@ -18,7 +18,7 @@ speakers:
     security awareness."
   handle: false
   name: Ali Yazdani
-  photo: https://pretalx.com/media/avatars/IMG_1303_Dv7oRSz.JPG
+  photo: https://pretalx.com/media/avatars/WNSRS3_NSVXWLy.JPG
 timeslot:
   duration: 30
   end: 2023-10-15 16:00:00+02:00

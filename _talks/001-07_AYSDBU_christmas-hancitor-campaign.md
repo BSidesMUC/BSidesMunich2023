@@ -11,7 +11,7 @@ speakers:
     law enforcement, and commercial companies"
   handle: false
   name: Artem Artemov
-  photo: https://pretalx.com/media/avatars/Artem_Artemov_3Yyq5Xt.png
+  photo: https://pretalx.com/media/avatars/GPYF38_ybYkZU2.png
 timeslot:
   duration: 30
   end: 2023-10-15 14:30:00+02:00

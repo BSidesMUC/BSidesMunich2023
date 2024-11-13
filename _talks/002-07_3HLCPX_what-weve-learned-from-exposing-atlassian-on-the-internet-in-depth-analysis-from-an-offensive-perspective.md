@@ -15,7 +15,7 @@ speakers:
     understanding of the organization's corporate risks and vulnerabilities.
   handle: false
   name: Oleksandr Kazymyrov
-  photo: https://pretalx.com/media/avatars/signal-2023-06-23-144122_002_O0KVNYG.jpeg
+  photo: https://pretalx.com/media/avatars/PL3M7A_BTkSBWn.jpeg
 timeslot:
   duration: 30
   end: 2023-10-15 15:00:00+02:00

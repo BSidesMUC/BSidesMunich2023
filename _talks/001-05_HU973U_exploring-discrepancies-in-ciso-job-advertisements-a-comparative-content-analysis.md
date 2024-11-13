@@ -13,7 +13,7 @@ speakers:
     risk management in the context of information security.
   handle: false
   name: Daniel Fall
-  photo: https://pretalx.com/media/avatars/DFA_Small_1_F8uZmQE.jpg
+  photo: https://pretalx.com/media/avatars/WCTY89_UCcObbq.jpg
 timeslot:
   duration: 30
   end: 2023-10-15 12:30:00+02:00
